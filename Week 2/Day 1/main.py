@@ -17,7 +17,7 @@
 # print(city == user_answer.lower())
 
 # sentence3 = "hello world how ar3 you"
-# sentence_list = sentence3.split()
+# sentence_list = sentence3ddd
 # print(sentence3, sentence_list)
 
 # sentence4 = "hello, world, how, ar3, you"
@@ -41,16 +41,16 @@
 # elif type(int(user_answer2) / 5) == int: print('Buzz')
 
 # If the number is a multiple is a multiples of both three and five, print "FizzBuzz" instead.
-price = 0
-user_answer4 = input("Please Give Me the number of Guests !  \n")
-if int(user_answer4) < 50 :
-   price = 4000
-elif 50 < int(user_answer4) < 100 :
-   price = 10000
-elif 100 < int(user_answer4) < 200 :
-   price = 15000
-else : price = 20000
-print(f"The price is {int(price)}")
+# price = 0
+# user_answer4 = input("Please Give Me the number of Guests !  \n")
+# if int(user_answer4) < 50 :
+#    price = 4000
+# elif 50 < int(user_answer4) < 100 :
+#    price = 10000
+# elif 100 < int(user_answer4) < 200 :
+#    price = 15000
+# else : price = 20000
+# print(f"The price is {int(price)}")
 
 
 # name = 'John rfffffffDoe'
@@ -71,15 +71,21 @@ print(f"The price is {int(price)}")
 #     length_description = 'short'
 
 
-user_answer2 = input("Welcome to FizzBuzz: Please give me a number between 1 and 100!\n")
-number = int(user_answer2)
-if number % 3 == 0 and number % 5 == 0:
-        print("FizzBuzz!")
-elif number % 3 == 0:
-        print("Fizz")
-elif number % 5 == 0:
-        print("Buzz")
-else : print(number)
+# user_answer2 = input("Welcome to FizzBuzz: Please give me a number between 1 and 100!\n")
+# number = int(user_answer2)
+# if number % 3 == 0 and number % 5 == 0:
+#         print("FizzBuzz!")
+# elif number % 3 == 0:
+#         print("Fizz")
+# elif number % 5 == 0:
+#         print("Buzz")
+# else : print(number)
 
+# list of 15 number 
+for number in range(0,14):
+        if number % 2 == 0 :
+                print(f'The number {number} is even')
+        else : 
+                print(f'the number {number} is odd')
 
 

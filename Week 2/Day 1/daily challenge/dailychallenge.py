@@ -13,6 +13,6 @@
 
 user_input = input("Enter a string: ")
 
-for i in range(1, len(user_input) + 1):
+for i in range(0, len(user_input)):
     substring = user_input[:i]
     print(substring)
